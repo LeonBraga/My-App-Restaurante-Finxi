@@ -144,7 +144,7 @@ export class HomePage {
 
   //change the status of a instance at MesaStatus to 'finalizado'. A 'finalizado' will not be seen by the user anymore.
   liberarMesa(){
-    this.db.executeSql(`UPDATE MesaStatus SET status = 'finalizado' WHERE numMesa=? AND (status='disponivel' OR status='ocupado') `, 
+    this.db.executeSql(`UPDATE MesaStatus SET status = 'finalizado' WHERE codMesa=? AND (status='disponivel' OR status='ocupado') `, 
         [this.endMesa])
     .then(()=> alert("status da mesa "+ this.endMesa +" alterado para fizalizado"))
     .catch(e => console.log(e));    
