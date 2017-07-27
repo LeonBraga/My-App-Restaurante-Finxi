@@ -1,26 +1,23 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+Template de 
 
-## How to use this template
+## Forma de funcionamento do App:
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+-O programa cadastra mesas que devem ser adicionadas pelo usuário através do número desejado para cada mesa.
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+-É gerado um cód único para cada mesa.Os códigos de cada mesa devem ser consultados em "Mesas disponiveis ou ocupadas"
 
-### With the Ionic CLI:
+-Cada mesa cadastrada pode estar em um dos 3 estados e somente Disponível e Ocupado podem ser visualizados: 
+   --Disponível : Quando a mesa acaba de ser cadastrada mas não existe nenhum pedido feito para a mesma.
+   --Ocupado: Quando uma mesa está criada e existe ao menos um pedido feito.
+   --Finalizado: Quando ela é encerrada e fica guardada em arquivo
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+-Os pedidos devem ser cadastrados inserindo-se o código da mesa que realizou o pedido, o nome ou descrição do pedido e o valor do mesmo em "Fazer pedido".
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
+-É gerado um código para cada pedido e este código está associado somente á um código de mesa.
 
-Then, to run it, cd into `myBlank` and run:
+-Os pedidos realizados para cada mesa podem ser consultados através do código da mesa em "Consultar pedidos".
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+-Para remover uma mesa em uso ou crida por engano, deve ser inserido o código da mesa em "Encerrar mesa".
 
-Substitute ios for android if not on a Mac.
+
 
