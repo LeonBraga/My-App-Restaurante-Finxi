@@ -2,6 +2,8 @@ Template de Aplicativo gerado em Ionic para controle de mesas e pedidos em resta
 
 ## Forma de funcionamento do App:
 
+-O aplicativo é exibido no celuar como "MyApp".
+
 -O programa cadastra mesas que devem ser adicionadas pelo usuário através do número desejado para cada mesa.
 
 -É gerado um cód único para cada mesa.Os códigos de cada mesa devem ser consultados em "Mesas disponiveis ou ocupadas"
