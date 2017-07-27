@@ -1,4 +1,4 @@
-Template de 
+Template de Aplicativo gerado em Ionic para controle de mesas e pedidos em restaurante. Disponivel somente para Android.
 
 ## Forma de funcionamento do App:
 
