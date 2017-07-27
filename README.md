@@ -6,7 +6,7 @@ Template de Aplicativo gerado em Ionic para controle de mesas e pedidos em resta
 
 -O programa cadastra mesas que devem ser adicionadas pelo usuário através do número desejado para cada mesa.
 
--É gerado um cód único para cada mesa.Os códigos de cada mesa devem ser consultados em "Mesas disponiveis ou ocupadas"
+-É gerado um código único para cada mesa.Os códigos de cada mesa devem ser consultados em "Mesas disponiveis ou ocupadas"
 
 -Cada mesa cadastrada pode estar em um dos 3 estados e somente Disponível e Ocupado podem ser visualizados: 
    --Disponível : Quando a mesa acaba de ser cadastrada mas não existe nenhum pedido feito para a mesma.
