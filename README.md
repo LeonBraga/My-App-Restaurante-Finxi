@@ -6,7 +6,7 @@ https://drive.google.com/open?id=0B267VPoBmuDaNWtIa0JsTF9xVms
 
 ## Forma de funcionamento do App:
 
--O aplicativo é exibido no celuar como "MyApp".
+-O aplicativo é exibido no celular como "MyApp".
 
 -O programa cadastra mesas que devem ser adicionadas pelo usuário através do número desejado para cada mesa.
 
